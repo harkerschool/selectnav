@@ -11,6 +11,7 @@ Text for default select option. Default: 'Go to...'
 Function to run when option is selected in select menu. Default: 
 ```
 function(nav) {
+    // loads selected page
     window.location = $(nav).find("option:selected").val();
 }
 ```
